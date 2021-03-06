@@ -15,15 +15,15 @@ namespace Business.Constants
         public static string ProductsListed = "Ürünler Listelendi";
         public static string ProductCountOfCategoryError="";
         internal static string ProductNameAlreadyExists="Bu isimde bir ürün zaten var";
-        internal static string CategoryLimitExceded;
+        internal static string CategoryLimitExceded="h";
        
 
         public static string  AuthorizationDenied="Yetkiniz yok";
-        internal static User PasswordError;
-        internal static string SuccessfulLogin;
-        internal static User UserNotFound;
-        internal static string UserAlreadyExists;
-        internal static string AccessTokenCreated;
-        internal static string UserRegistered;
+        public static string PasswordError = "Parola Yanlış";
+        internal static string SuccessfulLogin="Giriş Başarılı";
+        internal static string UserNotFound="Kullanıcı Bulunamadı";
+        internal static string UserAlreadyExists= "Kullanıcı adı bulunmakta";
+        internal static string AccessTokenCreated= "Giriş anahtarı oluşturuldu";
+        internal static string UserRegistered="Giriş Onaylandı";
     }
 }
